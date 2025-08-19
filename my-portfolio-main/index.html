@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kareem Ezz — Junior Penetration Tester</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+  <link rel="icon" href="assets/kareem.jpg" type="image/jpeg"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Nav -->
+  <header class="nav">
+    <div class="container row">
+      <div class="logo">
+        <span class="dot"></span>
+        <span>Kareem Ezz</span>
+      </div>
+      <nav class="menu">
+        <a href="#home" class="active" onclick="smoothScrollTo('#home')">Home</a>
+        <a href="#about" onclick="smoothScrollTo('#about')">About Me</a>
+        <a href="#skills" onclick="smoothScrollTo('#skills')">Skills</a>
+        <a href="#projects" onclick="smoothScrollTo('#projects')">Projects</a>
+        <a href="#testimonials" onclick="smoothScrollTo('#testimonials')">Testimonials</a>
+        <a href="#contact" onclick="smoothScrollTo('#contact')">Contact</a>
+        <button id="themeToggle" class="theme-toggle" aria-label=themeToggle>🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <canvas id="particles"></canvas>
+    <div class="container hero-wrap">
+      <div class="hero-card reveal">
+        <div class="tag">Penetration Tester</div>
+        <h1>Kareem Ezz</h1>
+        <h2>"From Exploit to Protection"</h2>
+        <p class="lead">I'm Kareem, a junior penetration tester and cybersecurity enthusiast, I focus on finding vulnerabilities in web apps and networks before attackers do, I use tools like Burp Suite, Nmap, and Wireshark, and follow OWASP standards,  I enjoy solving CTFs on TryHackMe and Hack The Box to sharpen my skills, I provide clear security reports that help organizations strengthen their defenses.</p>
+        <div style="display:flex; gap:12px; margin-top:14px">
+          <a class="btn btn-primary" href="#projects" onclick="smoothScrollTo('#projects')">My Projects</a>
+          <a class="btn" href="#contact" onclick="smoothScrollTo('#contact')">Contact</a>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><div class="num">5+</div><div class="muted">Projects</div></div>
+          <div class="kpi"><div class="num">5+</div><div class="muted">Basic techniques</div></div>
+          <div class="kpi"><div class="num">100%</div><div class="muted">Customer satisfaction </div></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <img src="assets/kareem.jpg"  style="border-radius:20px; border:1px solid var(--border); box-shadow:var(--shadow)">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        
+      </div>
+      <div class="grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="reveal">
+          <div class="card">
+            <div class="body">
+<p>أنا متخصص في <strong>الأمن السيبراني</strong> و<strong>اختبار الاختراق (Penetration Testing)</strong> مع خبرة في تقييم أمان الأنظمة والتطبيقات واكتشاف الثغرات الأمنية. أعمل على استخدام أدوات متقدمة في <strong>Active و Passive Recon</strong> مثل Nmap و Sublist3r و Burp Suite، بالإضافة إلى تحليل وإدارة الثغرات وفقًا لمعايير <strong>OWASP Top 10</strong>. لدي خبرة في اختبار تطبيقات الويب، الشبكات، والبنى التحتية، مع تقديم تقارير احترافية تتضمن <strong>تحليل المخاطر</strong> والتوصيات لحلول عملية. هدفي هو مساعدة الشركات على حماية بياناتها وبناء أنظمة آمنة ضد التهديدات الحديثة.</p>
+              <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:10px">
+                <span class="tag">Coding Ideas into Reality</span>
+                <span class="tag">أمان & أداء</span>
+                <span class="tag">تجربة مستخدم</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="card">
+            <div class="body">
+              <h3 style="margin-top:0">Job title</h3>
+              <p>Junior Penetration Tester</p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Skills -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="grid" style="grid-template-columns: repeat(3, 1fr)">
+      
+      <div class="card reveal">
+        <div class="body">
+          <div class="title">Cybersecurity</div>
+          <p class="muted">Penetration Testing, Vulnerability Assessment, OWASP Top 10, Exploitation</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="body">
+          <div class="title">Security Tools</div>
+          <p class="muted">Nmap, Burp Suite, Metasploit, Wireshark, Sublist3r</p>
+        </div>
+      </div>
+
+     
+
+      <div class="card reveal">
+        <div class="body">
+          <div class="title">Web Development</div>
+          <p class="muted">HTML5, CSS3, JavaScript, React</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="body">
+          <div class="title">Databases</div>
+          <p class="muted">MySQL,  SQL Server</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="body">
+          <div class="title">Team Skills</div>
+          <p class="muted">Problem Solving, Teamwork, Communication, Agile/Scrum</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+      <span class="sub">Featured Security Projects</span>
+    </div>
+    <div class="filters">
+      <button class="btn btn-primary" onclick="filterProjects('all')">All</button>
+      <button class="btn" onclick="filterProjects('pentest')">Pentesting</button>
+      <button class="btn" onclick="filterProjects('tools')">Tools</button>
+      <button class="btn" onclick="filterProjects('reports')">Reports</button>
+    </div>
+
+    <div class="grid projects">
+      <!-- Project 1 -->
+      <article class="project card reveal" data-tag="pentest">
+        <img src="assets/webpentest.jpg" alt="Web Application Pentest">
+        <div class="body">
+          <div class="title">Web Application Penetration Test</div>
+          <p class="muted">Performed a full penetration test on a client’s e-commerce platform covering OWASP Top 10 vulnerabilities.</p>
+          <p><strong>Techniques:</strong> SQLi, XSS, CSRF, Authentication Bypass</p>
+          <p><strong>Result:</strong> Discovered 12 vulnerabilities and provided a remediation plan that improved security posture by 80%</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="assets/WebPentestReport.pdf" target="_blank" rel="noopener">Report</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project card reveal" data-tag="tools">
+        <img src="assets/nmaptool.jpg" alt="Custom Recon Tool">
+        <div class="body">
+          <div class="title">Custom Recon Tool</div>
+          <p class="muted">Developed a Python-based reconnaissance tool that automates subdomain enumeration, port scanning, and service detection.</p>
+          <p><strong>Technologies:</strong> Python, Nmap, Sublist3r APIs</p>
+          <p><strong>Result:</strong> Reduced recon time by 60% for penetration tests</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="https://github.com/YourUsername/ReconTool" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project card reveal" data-tag="reports">
+        <img src="assets/redteam.jpg" alt="Red Team Assessment">
+        <div class="body">
+          <div class="title">Red Team Assessment</div>
+          <p class="muted">Led a Red Team exercise simulating real-world attacks to test organizational defense mechanisms.</p>
+          <p><strong>Scope:</strong> Social Engineering, External/Internal Pentest, Lateral Movement</p>
+          <p><strong>Result:</strong> Exposed gaps in monitoring and incident response; client implemented SIEM & EDR solutions</p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="assets/RedTeamCaseStudy.pdf" target="_blank" rel="noopener">Case Study</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Testimonials</h2>
+       
+      </div>
+      <div class="slider">
+        <div class="card slide reveal">
+          <div class="body">
+            <div class="stars">★★★★★</div>
+            <p>"Kareem identified critical vulnerabilities we weren’t even aware of, explained them clearly, and delivered a professional report ahead of schedule."</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+        
+      </div>
+      <div class="grid" style="grid-template-columns:1.1fr .9fr">
+        <form class="card body form reveal" onsubmit="event.preventDefault(); alert('تم إرسال الرسالة بنجاح (نموذج تجريبي)');">
+          <input class="input" type="text" name="name" placeholder="Name"/>
+          <input class="input" type="email" name="email" placeholder="Email"/>
+          <textarea class="input" name="message" placeholder="Message"></textarea>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <div class="reveal">
+          <div class="card">
+            <div class="body">
+              <h3 style="margin-top:0">Contact</h3>
+              <p><strong>Email:</strong> <a href="mailto:kemo2382004@gmail.com">kemo2382004@gmail.com</a>
+              <br><strong>LinkedIn:</strong> <a href="linkedin.com/in/kareem-ezz-a55aa024b" target="_blank" rel="noopener">linkedin.com/in/kareem-ezz-a55aa024b</a>
+              <br><strong>GitHub:</strong> <a href="https://github.com/ahmedhkm182" target="_blank" rel="noopener">github.com/ahmedhkm182</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px">
+      <div class="muted">© <span id="y"></span> Kareem Ezz — جميع الحقوق محفوظة.</div>
+      <div style="display:flex; gap:8px">
+        <span class="tag">Nmap</span>
+        <span class="tag">OWASP Top 10</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
